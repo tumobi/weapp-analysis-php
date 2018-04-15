@@ -26,34 +26,34 @@ print_r($result);
 ### 接口列表
 ```php
 // 概况趋势（天）
-$dailySummaryTrend = $analysis.getdDailySummaryTrend($begin_date, $end_date);
+$dailySummaryTrend = $analysis->getdDailySummaryTrend($begin_date, $end_date);
 
 // 访问趋势（日趋势）
-$dailyVisitTrend = $analysis.getDailyVisitTrend($begin_date, $end_date);
+$dailyVisitTrend = $analysis->getDailyVisitTrend($begin_date, $end_date);
 
 // 访问趋势（周趋势）
-$weeklyVisitTrend = $analysis.getWeeklyVisitTrend($begin_date, $end_date);
+$weeklyVisitTrend = $analysis->getWeeklyVisitTrend($begin_date, $end_date);
 
 // 访问趋势（月趋势）
-$monthlyVisitTrend = $analysis.getMonthlyVisitTrend($begin_date, $end_date);
+$monthlyVisitTrend = $analysis->getMonthlyVisitTrend($begin_date, $end_date);
 
 // 访问分布
-$visitDistribution = $analysis.getVisitDistribution($begin_date, $end_date);
+$visitDistribution = $analysis->getVisitDistribution($begin_date, $end_date);
 
 // 访问留存（日留存）
-$dailyRetainInfo = $analysis.getDailyRetainInfo($begin_date, $end_date);
+$dailyRetainInfo = $analysis->getDailyRetainInfo($begin_date, $end_date);
 
 // 访问留存（周留存）
-$weeklyRetainInfo = $analysis.getWeeklyRetainInfo($begin_date, $end_date);
+$weeklyRetainInfo = $analysis->getWeeklyRetainInfo($begin_date, $end_date);
 
 // 访问留存（月留存）
-$monthlyRetainInfo = $analysis.getMonthlyRetainInfo($begin_date, $end_date);
+$monthlyRetainInfo = $analysis->getMonthlyRetainInfo($begin_date, $end_date);
 
 // 访问页面 
-$visitPage = $analysis.getVisitPage($begin_date, $end_date);
+$visitPage = $analysis->getVisitPage($begin_date, $end_date);
 
 // 用户画像 
-$userPortrait = $analysis.getUserPortrait($begin_date, $end_date);
+$userPortrait = $analysis->getUserPortrait($begin_date, $end_date);
 
 ```
 ### 详细接口文档
